@@ -1,0 +1,312 @@
+body  {
+	background-image: url("img/background.png");
+}
+
+#wrapper  {
+	width: 900;
+	margin: 0 auto;
+	/*border: 2px solid black;*/
+}
+
+.zbottom  {
+	z-index: -1;
+}
+
+#head {
+	background: url('img/header.jpg') no-repeat ;
+	padding: 0 175px 0 110px;  
+	margin: 0 auto; 
+	position: relative;
+	height:375px;
+	max-width:200%; 
+	
+}
+
+h1   {
+	font-family: 'Averia Sans Libre', Verdana, serif;
+	font-size: 3em;
+	color:#9BDBFD;
+	text-shadow: 3px 3px #fff;
+}
+
+h2  {
+	font-family: 'Averia Sans Libre', Verdana, serif;
+	font-size: 2em;
+	color:#9BDBFD;
+	text-shadow:2px 2px #777;
+}
+
+h3  {
+	text-shadow: 2px 2px #E0A17A;
+	font-family: 'Averia Sans Libre', Verdana, serif;
+	font-size: 1.5em;
+	color:#2D6671;
+
+}
+
+h4  {font-family: 'Averia Sans Libre', Verdana, serif;
+	font-size: 1em;
+	color:#E0A17A;
+
+}
+
+p   {
+	font-family: Verdana,arial,sans-serif;
+	text-indent: 9px;
+}
+
+a   {
+	text-decoration: none;
+	font-weight: 800;
+	color:#2D6671;
+}
+
+a:visited   {
+	text-decoration: none;
+	font-weight: 800;
+	color:#2D6671;
+}
+
+a:hover {
+	color:#9BDBFD;
+}
+
+/**********************************
+*******SOCIAL MEDIA BAR************
+**********************************/ 
+#socialmedia {
+	position:relative;
+	float:right;
+	width:100%;
+	right:40px;
+/*	background: green;*/
+
+}
+
+#socialmedia ul{
+	/*margin-top: 50px;*/
+	/*list-style: none;*/
+	
+}
+
+#socialmedia ul li{
+display:inline;
+/*	list-style: none;*/
+	
+}
+
+#socialmedia img {
+	width: 40px;
+	height:40px;
+}
+
+/**********************************
+*******SOCIAL MEDIA BAR END********
+**********************************/ 
+
+/**********************************
+*******BUTTON (.BTN) BELOW********
+**********************************/ 
+
+.btn:hover {
+	color: orange;
+}
+
+.btn  {
+  background: #9BDBFD;
+  border: 1px solid gray;
+  box-shadow: 0 0 30px black inset;
+  color:#2D6671;
+  font: 1.5em bold Verdana;
+  font-weight: 800;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 100%;
+  position:relative;
+
+}
+
+#btntopoffset  {
+	top:200px;
+
+}
+/**********************************
+*******BUTTON (.BTN) ABOVE********
+**********************************/ 
+
+
+
+.container {
+	float:left;
+	/*margin:5px;*/
+	padding:10px;
+	position: relative;	
+	margin: 10px 0 0 25px;
+	left:5%;
+	width:500px;
+
+	/*border: 2px solid black;*/
+}
+
+.container p  {
+	font-family: Verdana,Arial,sans-serif;
+}
+
+.sidecol {
+	width:250px;
+	/*border: 2px solid black;*/
+	float:left;
+	position:relative;
+}
+
+.maincol {
+	width: 500px;
+	float:left;
+	position:relative;
+	/*border: 2px solid black;*/
+	margin:5px;
+
+}
+
+.maincol p {
+	padding:10px;
+
+}
+
+.infocol  {
+	background:#F6F6F6;
+	border: 3px dashed gray;
+	padding: 15px 15px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin:10px;
+
+
+}
+
+.infocol p img {
+	float:left;
+	width:150px;
+	height:150px;
+	margin: 0px 10px 2px 0px;
+
+}
+
+.center {
+	text-align: center;
+	position:relative;
+}
+
+#footer  {
+	background:#9bdbfd;
+	height:100px;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	padding-top: 80px;
+	position: relative;
+	clear:both;
+	margin-left: -50;
+
+}
+
+#portfolio {
+	position:relative;
+	float:left;
+	width:650px;
+	left:250px;
+	margin-bottom: 30px;
+	clear:both;
+	/*border: 3px dashed gray;*/
+
+}
+
+#portfolio ul {
+	list-style: none;
+}
+
+#portfolio img {
+	width:190px;
+	height:190px;
+	float:left;
+	margin: 5px;
+
+}
+
+#portfolio p {
+	
+	margin: 20px 40px;
+	text-align: center;
+	font-size: .7em;
+
+}
+
+
+
+/*********FANCY QUOTES*********/
+
+.quote1  {
+	position:relative;
+	color:#9BDBFD;
+	font-size:10em;
+	float:left;
+	margin: 0 ;
+	text-shadow: 0px 5px #555;
+	/*left: 25%;*/
+	bottom:10%;
+	/*background: blue;*/
+}
+
+.quote2  {
+	position:relative;
+	color:#9BDBFD;
+	font-size:10em;
+	float:left;
+	margin:0px ;
+	text-shadow: 0px 5px #555;
+	/*left: 1%;*/
+	top:12%;
+	/*background: blue;*/
+
+	
+}
+
+.quoted  {
+	float:left;
+	font-family: 'Averia Sans Libre', Verdana, serif;
+	font-size: 3em;
+	color:#E0A17A;
+	position:relative;
+	width:55%;
+	text-align: center;
+	text-shadow: 0px 5px #555;
+	bottom:10%;
+	/*background: blue;*/
+	margin:0 auto;
+
+}
+ 
+.quotee {
+	position:relative;
+	top:75%;
+	right:10%;
+	color:#9BDBFD;
+	text-shadow: 0px 2px #555;
+	text-align: right;
+	clear:left;
+
+	
+
+}
+
+/*********FANCY QUOTES*********/
+
+
+
+
+
+
+
+
+
+
